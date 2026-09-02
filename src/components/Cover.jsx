@@ -36,7 +36,7 @@ export default function Cover({ open, opening }) {
             <strong>Danna</strong>
             <small>Mis quince años</small>
             <span className="mirror-rule" />
-            <time dateTime="2026-12-27">27 · DICIEMBRE · 2026</time>
+            <time dateTime="2026-12-27T12:00">27 · DICIEMBRE · 2026 · 12 HS</time>
           </span>
         </span>
       </button>
