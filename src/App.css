@@ -2528,3 +2528,13 @@ footer{background:var(--danna-pink)!important;color:var(--danna-rose-dark)!impor
     font-size:9px !important;
   }
 }
+
+.event-time{
+  margin-top:10px;
+  text-align:center;
+  font-size:12px;
+  letter-spacing:.28em;
+  font-weight:600;
+  color:#9a5e6d;
+  text-transform:uppercase;
+}
