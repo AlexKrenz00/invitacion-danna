@@ -44,7 +44,12 @@ export default function RSVP() {
     <section className="rsvp">
       <img className="section-sprinkle rsvp-sprinkle-a" src={asset('decor-lily-disco.webp')} alt="" loading="lazy" decoding="async" />
       <img className="section-sprinkle rsvp-sprinkle-b" src={asset('decor-bow-heart.webp')} alt="" loading="lazy" decoding="async" />
-      <div className="seal2">✉</div>
+      <div className="seal2" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <rect x="3.5" y="5.5" width="17" height="13" rx="2.5" />
+          <path d="m5 7 7 5.5L19 7" />
+        </svg>
+      </div>
       <h3>Confirmación de asistencia</h3>
       <p>¡Espero que seas parte de esta gran celebración!</p>
       <form className="rsvp-form" onSubmit={send}>
