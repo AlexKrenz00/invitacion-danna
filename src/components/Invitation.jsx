@@ -25,7 +25,7 @@ export default function Invitation() {
 
       <div className="card venue-card">
         <img className="section-sprinkle venue-sprinkle" src={asset('decor-bow-heart.webp')} alt="" loading="lazy" decoding="async" />
-        <div className="icon rose-icon">⌖</div>
+        <div className="icon rose-icon emoji-icon" aria-hidden="true">📍</div>
 
         <h4>Quinta Lucía</h4>
 
@@ -45,7 +45,7 @@ export default function Invitation() {
 
       <div className="card">
         <img className="section-sprinkle gift-sprinkle" src={asset('decor-bow-disco.webp')} alt="" loading="lazy" decoding="async" />
-        <div className="icon rose-icon"></div>
+        <div className="icon rose-icon emoji-icon" aria-hidden="true">🎁</div>
 
         <h4>¿Un regalito?</h4>
 

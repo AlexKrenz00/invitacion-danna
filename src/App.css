@@ -1200,6 +1200,10 @@ section::after{
     0 10px 22px rgba(0,0,0,.22);
   font-size:0!important;
 }
+.card .icon.emoji-icon{
+  font-size:24px!important;
+  line-height:1;
+}
 .card .icon svg,
 .card .icon i{
   width:23px;
