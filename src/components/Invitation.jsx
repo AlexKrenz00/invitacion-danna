@@ -14,8 +14,7 @@ export default function Invitation() {
       <div className="floral-divider" aria-hidden="true">❀ · ✦ · ❀</div>
       <p className="message">Quiero compartir con vos un dia lleno de emoción,<br />alegría y recuerdos inolvidables. Sos parte de mi historia<br />y me haría muy feliz que estuvieras junto a mí.</p>
       <div className="memory-photo"><img src={asset('danna-memory.webp')} alt="Un recuerdo de Danna" loading="lazy" decoding="async" /></div>
-      <div className="date-row"><div className="line" /><div className="day">Domingo</div><div className="line" /><div className="big"><div className="num">27</div><div className="month">Diciembre</div></div><div className="line" /><div className="day">2026</div><div className="line" /></div>
-    <p className="event-time">12 HS</p>
+      <div className="date-row"><div className="line" /><div className="day">Domingo</div><div className="line" /><div className="big"><div className="num">27</div><div className="month">Diciembre</div><div className="event-time"><svg className="event-time-clock" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3.5 2" /></svg><span>12 HS</span></div></div><div className="line" /><div className="day">2026</div><div className="line" /></div>
     </section>
     <Countdown />
     <DressCode />

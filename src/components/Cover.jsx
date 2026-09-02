@@ -17,7 +17,7 @@ export default function Cover({ open, opening }) {
       <span className="mirror-sparkle mirror-sparkle-two" aria-hidden="true">✧</span>
       <span className="mirror-sparkle mirror-sparkle-three" aria-hidden="true">·</span>
 
-      <p className="mirror-kicker">UN DÍA · UNA HISTORIA · UN RECUERDO</p>
+      <p className="mirror-kicker">UNA NOCHE · UNA HISTORIA · UN RECUERDO</p>
 
       <button
         className="magic-mirror"
@@ -36,7 +36,7 @@ export default function Cover({ open, opening }) {
             <strong>Danna</strong>
             <small>Mis quince años</small>
             <span className="mirror-rule" />
-            <time dateTime="2026-12-27T12:00">27 · DICIEMBRE · 2026 · 12 HS</time>
+            <time dateTime="2026-12-27">27 · DICIEMBRE · 2026</time>
           </span>
         </span>
       </button>

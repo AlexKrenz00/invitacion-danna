@@ -177,6 +177,38 @@
   .date-row .big{ text-align:center; }
   .date-row .big .num{ font-family:'Playfair Display', serif; font-size:48px; color:#fff; line-height:.9;}
   .date-row .big .month{ font-family:'Dancing Script', cursive; font-size:20px; color:var(--silver);}
+  .event-time{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:9px;
+    margin-top:12px;
+    padding:8px 17px 8px 15px;
+    border:1px solid rgba(154,94,109,.35);
+    border-radius:999px;
+    background:rgba(255,249,242,.48);
+    box-shadow:0 5px 14px rgba(116,65,78,.10), inset 0 1px rgba(255,255,255,.55);
+    font-family:'Playfair Display', serif;
+    font-size:13px;
+    line-height:1;
+    letter-spacing:.18em;
+    font-weight:700;
+    color:#874e5d;
+    text-transform:uppercase;
+    text-align:center;
+    white-space:nowrap;
+  }
+  .event-time-clock{
+    width:18px;
+    height:18px;
+    flex:0 0 18px;
+    fill:none;
+    stroke:#b76e79;
+    stroke-width:1.8;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    filter:drop-shadow(0 1px 1px rgba(116,65,78,.12));
+  }
   .date-row .year{ font-size:12px; letter-spacing:.1em; color:var(--silver-soft); font-weight:600;}
 
   .countdown{
@@ -2527,14 +2559,4 @@ footer{background:var(--danna-pink)!important;color:var(--danna-rose-dark)!impor
   .rose-message-visible small{
     font-size:9px !important;
   }
-}
-
-.event-time{
-  margin-top:10px;
-  text-align:center;
-  font-size:12px;
-  letter-spacing:.28em;
-  font-weight:600;
-  color:#9a5e6d;
-  text-transform:uppercase;
 }
