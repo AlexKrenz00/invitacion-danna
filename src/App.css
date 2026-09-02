@@ -257,7 +257,7 @@
   .rsvp .seal2{
     width:52px; height:52px; border-radius:50%;
     background:radial-gradient(circle at 35% 30%, #dcdfe2, #55575b 75%);
-    margin:-64px auto 16px;
+    margin:-18px auto 16px;
     display:flex; align-items:center; justify-content:center;
     box-shadow:0 6px 14px rgba(0,0,0,.4);
   }
